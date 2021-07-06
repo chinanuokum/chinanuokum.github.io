@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe Page</title>
+        <meta charset="utf-8">
+        <style>
+        body {
+            background-color:rgb(7, 13, 0);
+        }
+        
+        #title  {
+            color:rgb(235, 227, 65);
+        }
+        
+        #note  {
+            color:rgb(255, 3, 24);
+        }
+        
+        .contents  {
+            color:rgb(217, 235, 146);
+        }
+        
+        .mslime {
+            color: rgb(4, 194, 80);
+        }
+        
+        .mslime-content{
+            color:rgb(25, 207, 119);
+        }
+        
+        
+        .kks  {
+            color: rgb(173, 15, 7);
+        }
+        
+        .kks-content{
+            color: rgb(252, 204, 10);
+        }
+        
+        .mcake  {
+            color: rgb(173, 4, 207);
+        }
+        
+        .mcake-content  {
+            color: rgb(217, 122, 217);
+        }
+        </style>
+    </head>
+    <body>
+       
+        <h1 id="title">Chinanuokum's Random Things Recipe Page</h1>
+        
+        <p id="note">**not all images match recipes**</p>
+        <h2 class="contents">Contents:</h2>
+        
+        <ol>
+            <li class="contents"><a class="contents" href="#mint-slime">Mint Slime Recipe
+            </a></li>
+            
+            <li class="contents"><a class="contents" href="#kit-kat-shake"> Kit Kat Shake Recipe</a></li>
+
+        <!--Mug Cake Recipe-->
+        <li class="contents"><a class="contents" href="#mug-cake">Mug Cake Recipe</a></li>
+
+        </ol>
+        
+        <!-- Mint Slime Recipe-->
+        <h2 class="mslime" id="mint-slime">Mint Slime</h2>
+        
+        <!--Image-->
+        <!--<img src=" width="190" alt="gooey slime dripping from hands">-->
+   
+        <!--Time and Servings-->
+        <ul class="mslime-content">
+            <li>Time: 5 mins</li>
+            <li>Serves: 2</li>
+        </ul>
+       
+        <!-- Table of Ingredients and Quantity-->
+        <table class="mslime-content">
+            <thead>
+                <tr>
+                    <th class="mslime">Ingredients and Materials</th>
+                    <th class="mslime">Quantity</th>
+                </tr>
+              
+               <!-- Bowl -->
+                <tr>
+                <td>bowl</td>
+                <td>medium to big </td>
+                </tr>
+             
+               <!-- Mixer -->
+                <tr>
+                    <td>wooden spoon</td>
+                    <td>medium size</td>
+                </tr>
+               
+               <!--Packaging-->
+                <tr>
+                <td>small container</td>
+                <td>2</td>
+                </tr>
+              
+               <!-- Glue -->
+                <tr><td>Elmer's liquid glue</td>
+                    <td>half of the medium sized bottles</td>
+                </tr>
+               
+               <!-- Smoothness -->
+                <tr>
+                    <td>hair conditioner</td>
+                    <td>one pump</td>
+                </tr>
+                
+                <!-- Activator -->
+                <tr>
+                    <td>liquid tide detergent</td>
+                    <td>2 caps</td>
+                </tr>
+                
+                <!-- Colour -->
+                <tr>
+                <td>green food colouring</td>
+                <td>1 drop</td>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        
+        <!-- Instructions -->
+        <h3 class= "mslime">Instructions</h3>
+              <p class="mslime-content"><strong>Step 1:</strong> Pour the glue and hair conditioner into the bowl
+</p>          
+              <p class="mslime-content"><strong>Step 2:</strong> Mix it until its smooth</p>
+             
+              <p class= "mslime-content"><strong>Step 3:</strong> Mix in the food colouring</p>
+            
+              <p class="mslime-content"><strong>Step 4:</strong> Slowly turn in the tide until you see it sticking a little, but not too little</p>
+              
+              <p class="mslime-content"><strong>Step 5:</strong> (A little messy) Pick up the slime and knead it until it's together</p>
+            
+              <p class="mslime-content"><strong>Step 6:</strong> If it's too strong, add a but more glue. if it's too runny, add a bit more tide</p>
+
+<p class="mslime-content">Now you know how to make your very own mint slime. Play with a friend!</p>
+        
+        <!--Kit Kat Shake recipe-->
+        <h2 class="kks-content" id="kit-kat-shake">Kit Kat Shake</h2>
+       
+        <!--Image-->
+        <img src="https://www.kasandbox.org/programming-images/food/chocolates.png" width="190" alt= "box of chocolates">
+        <!--Time and Servings-->
+        <ul class="kks">
+            <li> Time: 7 mins</li>
+            <li>Serves: 2 grande starbucks cups</li>
+       </ul>
+       
+       <!-- Table -->
+       <table class="kks">
+           <thead>
+               <tr>
+                   <th class="kks-content">Ingredients and Materials</th>
+                   <th class="kks-content">Quantity</th>
+               </tr>
+               
+               <tr>
+                   <td>blender</td>
+                   <td>one</td>
+               </tr>
+               
+               <!--Chocolate Kit Kat shaving-->
+               <tr>
+                   <td>kit kat shavings</td>
+                   <td>3 bricks</td>
+               </tr>
+              
+               <!--Milk-->
+               <tr>
+                    <td>milk</td>
+                    <td>1 & 1/2 grande starbucks cups</td>
+               </tr>
+               
+               <!--Ice Cream-->
+               <tr>
+                    <td>French vanilla ice cream</td>
+                    <td>2 scoops</td>
+               </tr>
+               
+           </thead>
+       </table>
+        
+        <!--Instructions-->
+       <h3 class="kks-content">Instructions</h3>
+       
+       <p class="kks">Put all the ingredients in the blender and blend. <br>If you have a blender with settings like: dice, milkshake...put it on milkshake. <br>If you have a blender with settings 1-5, put it on 3 or 4.<br>Ultimately, you want it to blend at a medium pace. </p>
+       <p class="kks">Blend it for a while and mix. Repeat until your satisfied with the texture, or someone gets annoyed by the sound.</p>
+       <p class="kks">Finally, pour in a cup(s) and share with friends/family or store in fridge.</p>
+   
+    <!--Mug Cake Recipe-->
+    <h2 class="mcake-content" id="mug-cake">Mug Cake</h2>
+    
+    <!--Image-->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Tassenkuchen_.jpg" width="190" alt="picture of mugcake">
+    
+    <!--Time and Servings-->
+    <ul class="mcake">
+        <li>Time: 10-15 mins</li>
+        <li>Serves: 1</li>
+    </ul>
+    
+    <!--Table-->
+    <table class="mcake">
+        <tr>
+    
+    <!--Ingredients and Materials-->
+            <th class="mcake-content">Ingredients and Materials </th>
+            <th class="mcake-content">Quantity</th>
+            
+            <!--Microwave-->
+            <tr>
+                <td>microwave</td>
+                <td>----</td>
+            </tr>
+            
+            <!--Large mug-->
+            <tr>
+                <td>mug</td>
+                <td>large</td>
+            </tr>
+            
+            <!--Tablespoon-->
+            <tr>
+                <td>tablespoon</td>
+                <td>1-3</td>
+            </tr>
+            
+            <!--Flour-->
+            <tr>
+                <td>pancake mix</td>
+                <td>4 tablespoons</td>
+            </tr>
+            
+            <!--Milk-->
+            <tr>
+                <td>milk</td>
+                <td>1 tablespoons</td>
+            </tr>
+            
+            <!--Ice Cream-->
+            <tr>
+                <td>ice cream of your   choice</td>
+                <td>2 tablespoons</td>
+                
+            <!--Vanilla Extract-->
+            <tr>
+                <td>vanilla extract</td>
+                <td>2 drops</td>
+            </tr>
+            </tr>
+        </tr>
+    </table>
+    
+    <!--Instructions-->
+    <h3 class="mcake-content">Instructions</h3>
+
+    <p class="mcake"
+><strong>Step 1:</strong> Scoop the pancake mix into the mug</p>
+   
+    <p class="mcake"
+><strong>Step 2:</strong> Add the milk and mix</p>
+    
+    <p class="mcake"
+><strong>Step 3:</strong> Scoop the ice cream in and mix</p>
+    
+    <p class="mcake"
+><strong>Step 4:</strong> Put the vanilla extract in the mug and turn again</p>
+    
+    <p class="mcake"
+><strong>Step 5:</strong> Pop your mugcake mix into the microwave for 1 minute to start.</p>
+    
+    <p class="mcake"
+><strong>Step 6:</strong> Check if it's ready by sticking a skewer stick in the middle. If it comes up clean, let cool. If not, microwave for 30 secs.</p>
+   
+    <p class="mcake"
+><strong>Step 7:</strong> Repeat step 6</p>
+   
+    <p class="mcake"
+>Enjoy your mugcake, and share this recipe with friends!</p>
+    
+    <!--<p><em>Source: <a href="?">Some recipes websites</a></em></p>--> 
+    
+    </body>
+</html>
