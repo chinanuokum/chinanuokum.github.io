@@ -31,6 +31,7 @@ body {
     max-width: 100%;
     height: auto;
     padding: 3vw;
+    text-align: center;
 }
 
 .header h1 {
