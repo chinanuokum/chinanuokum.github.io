@@ -27,6 +27,12 @@ body {
     position: -webkit-sticky;
 }
 
+.picture {
+    max-width: 100%;
+    height: auto;
+    padding: 3vw;
+}
+
 .header h1 {
     margin: 0.2em 0;
     color: var(--colour-4);
