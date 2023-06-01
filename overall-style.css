@@ -19,6 +19,20 @@ body {
     padding: 2.5em 2em 0;
     border-bottom: 1px solid #eee;
     position: -webkit-sticky;
+
+    .header h1 {
+    margin: 0.2em 0;
+    color: var(--colour-4);
+    font-size: 3em;
+    font-weight: 300;
+    }
+
+    .header h2 {
+        font-weight: 300;
+        color: var(--colour-4);
+        padding: 0;
+        margin-top: 0.2em;
+    }
 }
 
 #special-header {
@@ -35,28 +49,6 @@ body {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-}
-
-.header h1 {
-    margin: 0.2em 0;
-    color: var(--colour-4);
-    font-size: 3em;
-    font-weight: 300;
-}
-
-.header h2 {
-    font-weight: 300;
-    color: var(--colour-4);
-    padding: 0;
-    margin-top: 0.2em;
-}
-
-.h3 {
-    font-weight: 300;
-    font-size: 2em;
-    color: var(--colour-3);
-    padding: 0;
-    margin: 0.2em;
 }
 
 .content {
@@ -81,6 +73,14 @@ body {
     margin: 0 0 20px 0;
     font-weight: 300;
     color: var(--colour-4);
+}
+
+.content-notes {
+    margin: 0 0 40px 0;
+}
+.content-notes header {
+    font-weight: 200;
+    color: var(--colour-3);
 }
 
 
