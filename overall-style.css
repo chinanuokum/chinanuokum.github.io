@@ -78,7 +78,7 @@ body {
 .content-notes {
     margin: 0 0 40px 0;
 }
-.content-notes header {
+.content-notes h3 {
     font-weight: 200;
     color: var(--colour-3);
 }
