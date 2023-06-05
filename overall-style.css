@@ -76,10 +76,10 @@ body {
 }
 
 .content-notes-header {
-    margin: 0 0 0 40px;
+    margin: 0 0 10px 40px;
     font-weight: 200;
     font-size: 1.2em;
-    color: var(--colour-3);
+    color: black;
 }
 
 
