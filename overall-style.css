@@ -77,7 +77,7 @@ body {
 
 .content-notes-header {
     margin: 0 0 10px 40px;
-    font-weight: 300;
+    font-weight: bold;
     font-size: 1.2em;
     color: black;
 }
