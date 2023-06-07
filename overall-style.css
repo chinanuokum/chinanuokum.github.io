@@ -43,6 +43,7 @@ body {
 
 .picture {
     max-width: 100%;
+    width: 500vw;
     height: auto;
     padding: 3vw;
     display: flex;
